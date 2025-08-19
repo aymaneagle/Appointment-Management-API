@@ -55,9 +55,6 @@ const swaggerOptions = {
             version: "1.0.0",
             description: "API documentation for Patients and Appointments",
         },
-        servers: [
-            { url: "http://localhost:8000/api" }
-        ],
     },
     apis: ["./routes/*.js"], // Path to your route files
 };
