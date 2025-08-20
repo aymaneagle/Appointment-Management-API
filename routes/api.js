@@ -34,7 +34,7 @@ export default router;
 
 /**
  * @swagger
- * /createPatient:
+ * /api/createPatient:
  *   post:
  *     summary: Create a new patient
  *     tags: [Patients]
