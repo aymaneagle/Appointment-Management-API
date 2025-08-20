@@ -57,7 +57,7 @@ router.post('/createPatient', createPatient);
 
 /**
  * @swagger
- * /getAllPatients:
+ * /api/getAllPatients:
  *   get:
  *     summary: Get all patients
  *     tags: [Patients]
@@ -69,7 +69,7 @@ router.get('/getAllPatients', getAllPatients);
 
 /**
  * @swagger
- * /getPatientById/{id}:
+ * /api/getPatientById/{id}:
  *   get:
  *     summary: Get patient by ID
  *     tags: [Patients]
@@ -87,7 +87,7 @@ router.get('/getPatientById/:id', getPatientById);
 
 /**
  * @swagger
- * /updatePatient/{id}:
+ * /api/updatePatient/{id}:
  *   put:
  *     summary: Update patient info
  *     tags: [Patients]
@@ -116,7 +116,7 @@ router.put('/updatePatient/:id', updatePatient);
 
 /**
  * @swagger
- * /deletePatient/{id}:
+ * /api/deletePatient/{id}:
  *   delete:
  *     summary: Delete a patient
  *     tags: [Patients]
@@ -134,7 +134,7 @@ router.delete('/deletePatient/:id', deletePatient);
 
 /**
  * @swagger
- * /createAppointment:
+ * /api/createAppointment:
  *   post:
  *     summary: Create a new appointment
  *     tags: [Appointments]
@@ -163,7 +163,7 @@ router.post("/createAppointment", createAppointment);
 
 /**
  * @swagger
- * /getAppointmentsByPatient/{patientId}:
+ * /api/getAppointmentsByPatient/{patientId}:
  *   get:
  *     summary: Get all appointments for a patient
  *     tags: [Appointments]
@@ -181,7 +181,7 @@ router.get("/getAppointmentsByPatient/:patientId", getAppointmentsByPatient);
 
 /**
  * @swagger
- * /updateAppointment/{id}:
+ * /api/updateAppointment/{id}:
  *   put:
  *     summary: Update an appointment
  *     tags: [Appointments]
@@ -214,7 +214,7 @@ router.put("/updateAppointment/:id", updateAppointment);
 
 /**
  * @swagger
- * /deleteAppointment/{id}:
+ * /api/deleteAppointment/{id}:
  *   delete:
  *     summary: Delete an appointment
  *     tags: [Appointments]
